@@ -1,0 +1,58 @@
+@import url('reset.css');
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    padding: 20px 0;
+    background: #ccc;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.menu a {
+    color: grey;
+    display: block;
+    text-decoration: none;
+    padding: 5px 50px;
+}
+
+.menu>li {
+    text-transform: uppercase;
+    background: whitesmoke;
+    position: relative;
+}
+
+.menu>li:hover .second-ul {
+    display: block;
+
+}
+
+.second-ul {
+    padding: 20px 0 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+
+}
+
+.second-ul>li {
+    background: whitesmoke;
+}
+
+.second_1-ul li {
+    background: whitesmoke;
+}

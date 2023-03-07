@@ -1,0 +1,199 @@
+@import url(reset.css);
+
+.header_bg {
+    background-color: #81A36B;
+    padding-top: 20px;
+    position: fixed;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+body {
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: #161616;
+}
+
+.ul {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 90px;
+}
+
+
+
+.amelia_flowers {
+    background: #F5F5F5;
+    width: 100%;
+}
+
+header ul li a:hover {
+    color: aliceblue;
+}
+
+header a {
+    color: #161616;
+    text-decoration: none;
+}
+
+.block-amelia_flowers {
+    padding-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.text_1 {
+    padding-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+button {
+    color: #161616;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 15px 20px;
+
+}
+
+.button {
+    border: none;
+    background: #81A36B;
+}
+
+.button_1 {
+    margin-left: 65px;
+    border: 1px solid #81A36B;
+}
+
+.flowers_3 {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+.text {
+    padding-top: 60px;
+}
+
+.section_1 {
+    background-color: #81A36B;
+    width: 100%;
+
+}
+
+.advantages {
+    padding: 80px 0;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.text_2 {
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.text_3 {
+    padding-top: 60px;
+}
+
+
+.block-work {
+    display: flex;
+    text-align: center;
+}
+
+.works_cards {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.img_flowers {
+    flex: 1 1 33%;
+    background: #81A36B;
+    padding: 10px 15px;
+
+}
+
+.margin {
+    margin-top: 120px;
+}
+
+.footer {
+    background: #81A36B;
+    padding: 60px 0;
+}
+
+.flex-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-conteiner h3 {
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0px 0px 40px;
+}
+
+.footer-contact a {
+    color: #161616;
+    text-decoration: none;
+
+}
+
+.footer-contact ul>li+li {
+    margin-top: 20px;
+
+}
+
+.footer-contact li {
+    list-style-type: none;
+}
+
+.footer-year {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ul2 {
+    display: flex;
+    gap: 30px;
+}

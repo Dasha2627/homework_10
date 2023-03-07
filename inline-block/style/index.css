@@ -1,0 +1,125 @@
+@import url('reset.css');
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    padding: 20px 0;
+    background: #ccc;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Montserrat';
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.menu a {
+    color: grey;
+    display: block;
+    text-decoration: none;
+    padding: 5px 50px;
+}
+
+.menu>li {
+    text-transform: uppercase;
+    background: whitesmoke;
+    position: relative;
+}
+
+.menu>li:hover .second-ul {
+    display: block;
+
+}
+
+.second-ul {
+    padding: 20px 0 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.second-ul>li {
+    background: whitesmoke;
+}
+
+.second_1-ul li {
+    background: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.header1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container1 {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.card {
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cards_1 {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.cards {
+    font-size: 0;
+}
+
+.background {
+    background: palevioletred;
+
+    height: 70px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.card_par {
+    margin-top: 10px;
+    font-size: 17px;
+    height: 100px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+
+.card_par p+p {
+    margin-top: 10px;
+}
+
+.text_1 {
+    font-size: 15px;
+    color: gray;
+}
