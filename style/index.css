@@ -51,8 +51,52 @@
 
 .second-ul>li {
     background: whitesmoke;
+    position: relative;
 }
 
 .second_1-ul li {
     background: whitesmoke;
+}
+
+.second_1-ul {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    display: none;
+}
+
+.li2:hover ul {
+    display: block;
+}
+
+.FooterContainer {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.list_svg {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.icon_svg {
+    width: 70px;
+    height: 70px;
+    fill: #fff;
+}
+
+footer {
+    background-color: papayawhip;
+    width: 100%;
+    padding: 65px;
+    font-size: 0px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.icon_svg:hover {
+    fill: bisque;
 }

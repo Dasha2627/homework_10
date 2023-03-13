@@ -40,6 +40,17 @@
 
 }
 
+.second_1-ul {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    display: none;
+}
+
+.li2:hover ul {
+    display: block;
+}
+
 .second-ul {
     padding: 20px 0 0;
     position: absolute;
@@ -50,6 +61,7 @@
 }
 
 .second-ul>li {
+    position: relative;
     background: whitesmoke;
 }
 
