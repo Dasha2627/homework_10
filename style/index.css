@@ -52,14 +52,13 @@ menu a {
     padding: 5px 50px;
 }
 
-.second-ul li>a {
+.second-ul li a {
     padding: 10px 25px;
     text-decoration: none;
 }
 
 .menu>li {
     text-transform: uppercase;
-
     position: relative;
     font-size: 20px;
 }
@@ -86,9 +85,8 @@ menu a {
 }
 
 .second-ul>li a {
-    display: block;
     padding: 10px 45px;
-    border: 1px solid black
+
 }
 
 .second-ul>li {
@@ -103,17 +101,13 @@ menu a {
 }
 
 .second_1-ul {
-
+    display: none;
     position: absolute;
     top: 0;
     right: 100%;
-    display: none;
 }
 
-.li2:hover ul {
-    top: 100%;
-    display: block;
-}
+
 
 .FooterContainer {
     width: 1200px;
