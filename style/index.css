@@ -27,6 +27,24 @@ menu a {
     padding: 10px 25px;
 }
 
+.header_icon {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    position: absolute;
+    top: 0;
+    left: -1px;
+}
+
+.header-icon-right {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    position: absolute;
+    top: 1px;
+    right: -1px;
+}
+
 .icon_link {
     color: grey;
     display: block;
@@ -34,37 +52,58 @@ menu a {
     padding: 5px 50px;
 }
 
+.second-ul li>a {
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
 .menu>li {
     text-transform: uppercase;
-    background: whitesmoke;
+
     position: relative;
+    font-size: 20px;
 }
 
 .menu>li:hover .second-ul {
     display: block;
+    top: 100%;
+}
+
+
+.second-ul {
+    transition: all 2s cubic-bezier(1, .14, 0, 1.66);
+    padding: 20px 0 0;
+    position: absolute;
+    left: 0;
+    top: -1000%;
+    z-index: 1;
+
 
 }
 
-.second-ul {
-    padding: 20px 0 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    display: none;
+.header_icon_arrow {
+    top: 4px;
+}
 
+.second-ul>li a {
+    display: block;
+    padding: 10px 45px;
+    border: 1px solid black
 }
 
 .second-ul>li {
     background: whitesmoke;
     position: relative;
+
 }
 
 .second_1-ul li {
     background: whitesmoke;
+
 }
 
 .second_1-ul {
+
     position: absolute;
     top: 0;
     right: 100%;
@@ -72,6 +111,7 @@ menu a {
 }
 
 .li2:hover ul {
+    top: 100%;
     display: block;
 }
 
@@ -103,34 +143,14 @@ footer {
     left: 0;
 }
 
-.icon_svg:hover {
+.header_icon:hover {
     fill: bisque;
 }
 
-.menu svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-}
-
 .menu li:hover a {
-    color: rgb(255, 0, 140);
+    color: wheat;
 }
 
 .menu li:hover svg {
-    fill: rgb(255, 0, 140);
-}
-
-.menu li:nth-child(2) {
-    padding-left: 25px;
-}
-
-.menu li:nth-child(3) {
-    padding-right: 25px;
-}
-
-.menu li {
-    font-size: 20px;
+    fill: wheat;
 }
