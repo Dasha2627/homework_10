@@ -100,14 +100,22 @@ menu a {
 
 }
 
-.second_1-ul {
 
-    position: absolute;
+.li2:hover .second_1-ul {
+    display: block;
     top: 0;
     right: 100%;
 }
 
+.second_1-ul {
+    transition: all 1s cubic-bezier(.13, 1.07, 0, .37);
+    right: -100%;
+    top: -1000%;
+    z-index: 1;
+    position: absolute;
 
+
+}
 
 .FooterContainer {
     width: 1200px;
