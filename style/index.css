@@ -101,7 +101,7 @@ menu a {
 }
 
 .second_1-ul {
-    display: none;
+
     position: absolute;
     top: 0;
     right: 100%;
@@ -142,6 +142,7 @@ footer {
 }
 
 .menu li:hover a {
+    display: block;
     color: wheat;
 }
 
