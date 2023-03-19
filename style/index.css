@@ -117,12 +117,6 @@ menu a {
 
 }
 
-.FooterContainer {
-    width: 1200px;
-    margin: 0 auto;
-
-}
-
 .list_svg {
     display: flex;
     justify-content: center;
@@ -130,17 +124,56 @@ menu a {
 }
 
 .icon_svg {
-    width: 60px;
-    height: 60px;
-    fill: #fff;
+    width: 40px;
+    height: 40px;
+    transform: rotate(-40deg);
+
+}
+
+.hover_me {
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 0;
+    left: 70%;
+    padding: 30px 35px;
+    transform: translateY(75%);
+
+}
+
+.hover_me:hover {
+    transition: all 1s;
+    transform: translateY(0);
+}
+
+.hover_svg li {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.hover_svg {
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    width: 120px;
+    transform: rotate(40deg);
+    padding-left: 5px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.hover_me_klik {
+    text-align: center;
+    font-size: 30px;
 }
 
 footer {
-    background-color: papayawhip;
+    background-color: blue;
     width: 100%;
     padding: 65px;
     font-size: 0px;
-    position: absolute;
+
     top: 100%;
     left: 0;
 }
