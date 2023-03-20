@@ -46,6 +46,7 @@ menu a {
 }
 
 .icon_link {
+    background-color: cornsilk;
     color: grey;
     display: block;
     text-decoration: none;
@@ -126,7 +127,7 @@ menu a {
 .icon_svg {
     width: 40px;
     height: 40px;
-    transform: rotate(-40deg);
+    transform: rotate(-45deg);
 
 }
 
@@ -135,37 +136,44 @@ menu a {
     position: fixed;
     bottom: 0;
     left: 70%;
-    padding: 30px 35px;
-    transform: translateY(75%);
-
+    width: 225px;
+    transform: translateY(calc(100% - 40px));
+    transition: all 1s;
 }
 
 .hover_me:hover {
-    transition: all 1s;
+    transition: all 2s;
     transform: translateY(0);
 }
 
+.hover_svg a {
+    display: block;
+    padding: 3px;
+}
+
 .hover_svg li {
-    border-right: 2px solid black;
-    border-left: 2px solid black;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
 .hover_svg {
+    margin: 0 auto;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     display: flex;
     width: 120px;
-    transform: rotate(40deg);
-    padding-left: 5px;
-    margin-top: 30px;
-    margin-left: 15px;
+    transform: rotate(45deg);
+    justify-content: center;
+    padding: 40px 0;
 }
 
 .hover_me_klik {
+    background-color: gray;
     text-align: center;
     font-size: 30px;
+    padding: 5px 0;
 }
 
 footer {
