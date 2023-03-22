@@ -132,7 +132,7 @@ menu a {
 }
 
 .hover_me {
-    background-color: cadetblue;
+
     position: fixed;
     bottom: 0;
     left: 70%;
@@ -180,12 +180,14 @@ menu a {
     text-align: center;
     font-size: 30px;
     padding: 5px 0;
-    animation: pulse 0.5s;
-    animation-iteration-count: infinite;
+    animation: pulse .5s infinite;
+
 
 }
 
-
+.back {
+    background-color: dimgray;
+}
 
 @keyframes pulse {
     0% {
